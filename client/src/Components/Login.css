@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.login {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #008dda;
+  padding: 30px 100px 30px 100px;
+  border-radius: 10px;
+  background-color: #124076;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.login-form > span {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.login-head > h1 {
+  text-transform: uppercase;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 20px 60px;
+  text-align: center;
+  background-color: aqua;
+  position: absolute;
+  top: -5%;
+  left: 30%;
+}
+.sign-up {
+  color: #000000;
+}
+.login-mail {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.login-mail > input {
+  padding: 10px 20px;
+  border: none;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.login-password {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.login-password > input {
+  padding: 10px 20px;
+  border: none;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.login-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.login-links > label {
+  font-size: 10px;
+  cursor: pointer;
+}
+form > button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: aqua;
+  border: none;
+  font-weight: 300;
+  cursor: pointer;
+}

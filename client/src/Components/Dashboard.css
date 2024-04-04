@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.dashboard {
+  padding: 20px;
+}
+.dashboard > h1 {
+  font-family: "Noto Sans", sans-serif;
+  color: #333;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
